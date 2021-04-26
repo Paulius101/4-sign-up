@@ -1,0 +1,49 @@
+body {
+background-color: #00B5D5;
+}
+
+.container {
+display: inline-block;
+width: 800px;
+margin-left: calc(50% - 400px);
+margin-top: 100px;
+}
+
+.left-column {
+display: inline-block;
+width: 40%;
+float: left;
+background-color: yellow;
+}
+
+.main-title {
+
+}
+
+.bottom-links {
+
+}
+
+.bottom-links > a {
+
+}
+
+.bottom-links > span {
+
+}
+
+.right-column {
+    display: inline-block;
+    width: 60%;
+    float: left;
+    background-color: blueviolet;
+}
+
+.close {
+
+
+}
+
+form {
+
+}
