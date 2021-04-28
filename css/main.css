@@ -21,8 +21,11 @@ body {
     display: inline-block;
     width: 40%;
     float: left;
-    background-color: blue;
+    background-color: #4c46a5;
+    background-image: url(../images/crapy\ photo.png);
+    background-size: cover;
     padding: 40px;
+    background-position:center;
 }
 
 .main-title {
@@ -39,7 +42,7 @@ color: #fff;
 }
 
 .bottom-links > span {
-
+color: #fff;
 }
 
 .right-column {
