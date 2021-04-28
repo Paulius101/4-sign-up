@@ -49,13 +49,21 @@ color: #fff;
     display: inline-block;
     width: 60%;
     float: left;
-    padding: 30px;
+    padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 
 .close {
-
-
+display: inline-block;
+width: 60px;
+height: 60px;
+text-align: center;
+font-size: 30px;
+line-height: 54px;
+position: absolute;
+top: 0;
+right: 0;
 }
 
 .form {
