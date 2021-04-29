@@ -10,10 +10,10 @@
     - iterpti nuoroda i daroma dizinai
     - iterpti nuoroda, kur tas musu kodas gali buti pamatytas
 - [x] atlikti dizaino analize
-- [] surasyti HTML
-- [] issikirpti nuotraukas ir jas panaudoti:
+- [x] surasyti HTML
+- [x] issikirpti nuotraukas ir jas panaudoti:
     - panaudoti reliatyvu kelia
-- [] aprasome stiliu:
+- [x] aprasome stiliu:
     -turinys turi buti centre (tiek horizontaliai, tiek vertikaliai)
     - pagrindinis plotis turi buti fiksuotas
  - [] atskiri puslapiai, kurie naviguoja "ratu"
@@ -25,7 +25,7 @@
 # Pozicionavimas
 
 1. Vaikui duodam `position: absolute`;
-2. Artimiausiam logismai teviniam elementui, kuri norime tureti kaip atskaitos taska, suteikiame:
+2. Artimiausiam logiskai teviniam elementui, kuri norime tureti kaip atskaitos taska, suteikiame:
     a) `position: relative`, jeigu tas elementas neturi kitokiu `position` savybiu;
     b) paliekame tokia `position` savybe kokia tas elementas turi, jei nurodytas;
 

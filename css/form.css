@@ -1,0 +1,46 @@
+.form {
+    display: inline-block;
+    width: 100%;
+    }
+    
+    .form-row {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .form-row + .form-row {
+    margin-top: 40px;
+    }
+    
+    label {
+        display: inline-block;
+        width: 100%;
+        color: #ccc;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    input {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.8em;
+        border:none;
+        border-bottom: 1px solid #999;
+    }
+    ::placeholder {
+        color: #999;
+        font-style: italic;
+    }
+    button {
+        float: left;
+        background-color: #015CDA;
+        color: #fff;
+        padding: 10px 40px;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 21px;
+        border: 1px solid #0045a7;
+    }
