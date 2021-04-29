@@ -29,11 +29,21 @@
         line-height: 1.8em;
         border:none;
         border-bottom: 1px solid #999;
+        padding: 0 10px;
     }
     ::placeholder {
         color: #999;
         font-style: italic;
     }
+    input:focus {
+        background-color: yellow;
+        outline-color: red;
+    }
+
+    input:focus-visible {
+        outline-color: red;
+    }
+
     button {
         float: left;
         background-color: #015CDA;
@@ -43,4 +53,8 @@
         line-height: 20px;
         border-radius: 21px;
         border: 1px solid #0045a7;
+    }
+    button:hover {
+        background-color: #0c3c80;
+        cursor:pointer;
     }
