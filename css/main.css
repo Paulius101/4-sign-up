@@ -8,7 +8,7 @@ body * {
 }
 
 body {
-    background-color: #00B5D5;
+    background-color: #7f9599;
     /* position: relative; */
 }
 
@@ -54,14 +54,11 @@ position: absolute;
 bottom: 20px;
 left: 40px;
 right: 40px;
+color: #fff;
 }
 
 .bottom-links > a {
-color: #fff;
-}
-
-.bottom-links > span {
-color: #fff;
+    color: white;
 }
 
 .right-column {
